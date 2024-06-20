@@ -18,7 +18,7 @@ GREEN = (0, 255, 0)
 IMAGESAVE = False
 img_count = 1
 
-DR_model = pickle.load(open("Digit_Recognition_model_RFv2.sav", 'rb'))
+DR_model = pickle.load(open("./models/Digit_Recognition_model_RFv2.sav", 'rb'))
 
 LABELS = {0: "Zero", 1: "One", 2: "Two", 3: "Three",
           4: "Four", 5: "Five", 6: "Six",
